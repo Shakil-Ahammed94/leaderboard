@@ -1,0 +1,185 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@400;500;600&display=swap');
+body{
+    background-color:rgb(98, 98, 124);
+    
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:whitesmoke;
+    margin-bottom:20px;
+    
+    width: 60%;
+ 
+
+    padding: 0px 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-content: center;
+    
+}
+.items{
+    
+    display: flex;
+   
+    
+    justify-content: center;
+
+}
+.container-1{
+    
+    align-content: center;
+    align-items: center;
+}
+.header a{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color:cadetblue;
+}
+.one{display: flex;
+    align-items: center;}
+    
+.one a{
+    margin-right: 50px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-2{
+    width: 60%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding:50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+    
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 30px;
+    }
+    h2{
+        color:darkslateblue;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 25px;
+    }
+    .players img{
+        height: 70px;
+        width: 70px;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        
+    }
+    .name h3{
+        margin-left:20px ;
+    }
+    hr{
+        margin-top: 70px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        
+    }
+    .blog-content img{
+        width: 200px;
+        height: 100px;
+    }
+    .blog-content{
+        display: flex;
+        align-items: center;
+        gap:25px;
+      
+       
+        
+    }
+    h3{
+        font-size: 18px;
+    }
+    .blog-r{
+        margin-top: 50px;
+    }
+
+    .text a{
+        text-decoration: none;
+    }
+
+    .try{
+        margin-bottom: 20px;
+    }
+    .single img{
+        height: 100px;
+        width: 200px;
+        
+    }
+
+
+    .skill{
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+      
+       
+       
+       
+    }
+    span{
+        margin-left: 3px;
+    }
+    .rating i {color: goldenrod;}
+    
+   @media screen and (max-width:688px){
+    .skill,.players,.blogs{
+        display: grid;
+      grid-template-columns: repeat(1,1fr);
+    
+       width:100%;
+       
+     
+}
+    .rating{
+        margin-bottom: 20px;
+    }
+    .blog-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+          ;
+    }
+    
+   }
+
+
+   @media screen and (min-width:689px) and (max-width:992px){
+    .skill,.players,.blogs{
+        display: grid;
+      grid-template-columns: repeat(2,1fr);
+    
+       width:100%;
+       
+     
+}
+    .rating{
+        margin-bottom: 20px;
+    }
+    .blog-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+          ;
+    }
+    
+   }
